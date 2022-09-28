@@ -1,0 +1,109 @@
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  
+  .ulist{
+    flex:4;
+  }
+  
+  
+  .table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table th {
+    padding: 10px 15px;
+    text-align: left;
+  
+    /* background-color: #1b80c2; */
+    color: white;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  .icon {
+    position: relative;
+    top: 3px;
+    left: 5px;
+  }
+  .btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 72px;
+    /* flex: 4; */
+    padding: 20px 20px;
+  }
+  .btn button {
+    padding: 8px 15px;
+    background-color: #1b80c2;
+    border: none;
+    color: white;
+  }
+  .btn button:disabled {
+    background-color: #94beda;
+  }
+  .btn button:hover {
+    cursor: pointer;
+  }
+  .btn input::-webkit-outer-spin-button,
+  .btn input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .btn input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  .btn select,
+  .btn input {
+    border: 1px solid rgb(133, 127, 127);
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+  }
+  .btn select {
+    padding: 0px 5px;
+    outline: none;
+  }
+  .btn input {
+    width: 50px;
+  }
+  .head {
+    padding: 10px 10px;
+  }
+  .btn1 {
+    padding: 5px;
+    color: white;
+    background-color: #1b80c2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .openModalBtn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+  }
+
+  

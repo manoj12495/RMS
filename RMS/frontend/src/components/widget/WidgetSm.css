@@ -1,0 +1,18 @@
+.wSm{
+    margin-top: 80px;
+    flex: 1;
+    -webkit-box-shadow: -1px 1px 9px 4px #000000; 
+    box-shadow: -1px 1px 9px 4px #000000;
+    padding: 20px;
+    height: 100%;
+}
+.container{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 100px 100px;
+}
+.item{
+    -webkit-box-shadow: -1px 1px 9px 4px #000000; 
+    box-shadow: -1px 1px 9px 4px #000000;
+    height: 100px;
+}

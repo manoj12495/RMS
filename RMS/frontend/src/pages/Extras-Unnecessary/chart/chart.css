@@ -1,0 +1,36 @@
+/* .chart{
+    margin: 10px;
+    padding: 10px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 2rem;
+    background-color: brown;
+} */
+
+.chart{
+    -webkit-box-shadow: -1px 1px 9px 4px #000000; 
+    box-shadow: -1px 1px 9px 4px #000000;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+}
+.chartTitle{
+    margin-bottom: 20px;
+}
+.wrapper{
+    margin-top: 20px;
+}
+
+.wrapper ul {
+    overflow: hidden;
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+}
+.wrapper li {
+    float: left;
+    width: calc(33.333333% - 20px);
+    margin: 0 10px 20px 10px;
+}

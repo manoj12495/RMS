@@ -1,0 +1,41 @@
+.taxList{
+    flex:4;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.tableStatus{
+    border: 1px solid rgb(3, 14, 172);
+
+}
+.orderStatus{
+    border: 1px solid rgb(98, 211, 6);
+}
+.tableBox{
+    border: 1px solid rgb(218, 204, 13);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 20px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+padding: 20px;
+}
+
+.item{
+    border: 1px solid rgb(14, 13, 0);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+.orderBox table{
+    border: 2px solid black;
+
+}
+
+.orderBox table, th, td {
+    border: 1px solid black;
+  }
